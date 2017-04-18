@@ -1,0 +1,26 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+     >
+    <ImageView
+        android:id="@+id/img_update_noti"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="4dip"
+        android:src="@drawable/recent_3"
+        >
+    </ImageView>
+    <TextView
+        android:id="@+id/update_noti"
+        style="@android:style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="My Recent Apps"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        >
+    </TextView>
+
+</LinearLayout>
