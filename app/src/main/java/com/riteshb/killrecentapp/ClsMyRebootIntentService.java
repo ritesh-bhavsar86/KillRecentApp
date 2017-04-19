@@ -43,7 +43,7 @@ public class ClsMyRebootIntentService extends IntentService {
 				.getSystemService(Context.NOTIFICATION_SERVICE);
 
 		// app listener
-		Intent app = new Intent(context, ClsWidgetProvider.switchButtonListener.class);
+		Intent app = new Intent(context, switchButtonListener.class);
 		app.putExtra("DO", "app");
 		PendingIntent pApp = PendingIntent.getBroadcast(context, 0, app, 0);
 		view.setOnClickPendingIntent(R.id.update_noti, pApp);

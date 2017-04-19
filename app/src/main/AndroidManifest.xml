@@ -37,13 +37,14 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name=".ClsWidgetProvider$switchButtonListener"
+            android:name=".switchButtonListener"
             android:exported="false" >
             <intent-filter>
                 <action android:name="Download_Cancelled" />
             </intent-filter>
         </receiver>
         <service android:name=".ClsMyRebootIntentService"/>
+        <service android:name=".UpdateWidgetService"></service>
     </application>
 
 </manifest>
