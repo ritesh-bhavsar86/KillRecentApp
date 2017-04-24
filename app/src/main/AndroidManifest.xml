@@ -15,8 +15,11 @@
         <activity android:name=".ActivityMain"
             android:label="@string/app_name" >
             <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+                <!-- if you want to not show your app in main menu of apps list
+                then you can disable launcher and main
+                with goto Run-Edit Configuration-general tab-launch option- select "nothing"  -->
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
