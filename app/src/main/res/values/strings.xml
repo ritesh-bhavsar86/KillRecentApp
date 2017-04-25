@@ -1,33 +1,35 @@
 <resources>
     <string name="app_name">KillRecentApp</string>
     <string name="app_info">
-        <b>Kill Recent App</b>\n
-The app is all about to view recently opened apps and then user can kill one by one with swipe or all.\n\n
-
-This app is widget app.\n
-So user has to add widget to home screen by drag and drop from widgets list.\n\n
-
-How to add widget to Home Screen?\n
+        <b>How it Works?</b>\n
+        just <b>add widget to Home Screen</b> and that\'s it.\n
 Switch to a Home screen page that has room enough for the new widget.\n
 Unlike app icons, widgets can occupy more than a postage-stamp-size piece of Home screen real estate.\n\n
 
-Step 1:\n
+<b>Step 1:</b>\n
 From your phone, swipe to the nearest screen with enough room to fit your desired widget.\n
-Step 2:\n
+<b>Step 2:</b>\n
 Long-press the Home screen\n
-Step 3:\n
+<b>Step 3:</b>\n
 You will be given the option to manage your widgets.\n
 choose the Widget or Widgets command or icon.\n
-Step 4:\n
+<b>Step 4:</b>\n
 Scroll through your widgets until you find the one you wish to add to your home screen.\n
 Swipe the screen to browse widgets. They’re listed by name, but you also see a tiny widget preview.\n
-Step 5:\n
+<b>Step 5:</b>
+\n
 Press and hold your selected widget.\n
-Step 6:\n
+<b>Step 6:</b>
+\n
 Move it to your home screen and into the desired place that you want to put it.\n\n
 
-Recap: If there is no room available on your home screen, then you will not be able to put your widget on that page. You can even change the size of some of your widgets and move them around into different places. This allows you to personalize your home screen and prioritize the widgets that you use the most into a more convenient and accessible location. If there is a widget that you want to add to your home screen, but it is not in your arsenal of widgets, then visit the Google Play Store to download that widget.
-
+<b>Recap:</b>\n
+ If there is no room available on your home screen, then you will not be able to put your widget on that page. You can even change the size of some of your widgets and move them around into different places. This allows you to personalize your home screen and prioritize the widgets that you use the most into a more convenient and accessible location. If there is a widget that you want to add to your home screen, but it is not in your arsenal of widgets, then visit the Google Play Store to download that widget.
+    </string>
+    <string name="app_info_">
+    <b>Kill Recent App</b> is a widget app.\n
+    The app is all about to view recently opened apps and then user can kill one by one with swipe or all.\n
+    User has to add widget to home screen by drag and drop from widgets list.\n\n
     </string>
 
 </resources>

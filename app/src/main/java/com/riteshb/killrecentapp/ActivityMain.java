@@ -3,27 +3,24 @@ package com.riteshb.killrecentapp;
 /**
  * Created by riteshb on 4/17/2017.
  */
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.util.List;
 
 import android.app.Activity;
-import android.app.ActivityManager;
-import android.content.ComponentName;
-import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.RemoteException;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.TextView;
+
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 
 public class ActivityMain extends Activity {
 
     private Button btn_launch;
+    private TextView txt_info;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +28,8 @@ public class ActivityMain extends Activity {
         setContentView(R.layout.activity_main);
 
         btn_launch = (Button)findViewById(R.id.button1);
+        txt_info = (TextView) findViewById(R.id.txt_info);
+        txt_info.setMovementMethod(new ScrollingMovementMethod());
 
         btn_launch.setOnClickListener(new OnClickListener() {
 
